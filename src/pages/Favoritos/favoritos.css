@@ -1,0 +1,28 @@
+.meus-filmes {
+    min-height: calc(100vh - 270px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meus-filmes h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btnlinks {
+    font-size: 18px;
+}
+
+.favlink {
+    display: flex;
+    justify-content: center;
+}
+
+.favspan {
+    color: #fff;
+    font-size: 22px;
+}

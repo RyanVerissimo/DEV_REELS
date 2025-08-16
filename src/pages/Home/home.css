@@ -1,0 +1,109 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    max-width: 1600px;
+    margin: 14px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container span {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    color: #fff;
+}
+
+/* Carrossel horizontal */
+
+
+.carrossel {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.carrossel article {
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+}
+
+.carrossel img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.carrossel img:hover {
+    transform: scale(1.05);
+}
+
+/* Overlay escondida */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Mostra overlay ao passar o mouse */
+article:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.overlay .links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.overlay .links a,  .overlay .links button{
+    background: #ff0000;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.overlay .links a:hover , .overlay .links button:hover{
+    background: #cc0000;
+}
+
+.btnlink {
+    font-size: 18px;
+}

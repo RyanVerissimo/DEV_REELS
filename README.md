@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# DEV REELS 🔴
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## DEV REELS é uma plataforma de filmes desenvolvida utilizando a API do TMDB.
+### O sistema permite explorar filmes, salvar favoritos no localStorage, visualizar detalhes e gerenciar sua lista de preferidos de forma simples e prática.
 
-## Available Scripts
+🏠 Páginas e Funcionalidades
 
-In the project directory, you can run:
+🔹 Home 🎬
+Responsável por exibir uma listagem de filmes consumidos da API do TMDB.
+Nessa página, o usuário pode:
 
-### `npm start`
+ - Assistir
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Adicionar aos favoritos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Acessar a página de detalhes
 
-### `npm test`
+🔹 Detalhes 📖
+Exibe informações completas de um filme selecionado, utilizando o ID do filme clicado.
+Na tela de detalhes é possível visualizar:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Título
 
-### `npm run build`
+- Data de lançamento
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Gêneros
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- entre outros...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Além disso, o usuário terá um botão de assistir ao filme ou adicioná-lo aos favoritos.
 
-### `npm run eject`
+🔹 Favoritos ⭐
+Mostra todos os filmes adicionados como favoritos, consumidos do localStorage.
+Nessa página o usuário pode:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Assistir novamente
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Excluir o filme dos favoritos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Ver os detalhes do filme
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔹 NotFound 🚫
+Página exibida quando o usuário tenta acessar uma URL inexistente dentro da aplicação
 
-## Learn More
+# 🛠️ Tecnologias usadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Frontend
+- React.js
+- Axios
+- react-router-dom
+- LocalStorage
+- React Toastify
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![DEV REELS 🔴](/src/Images/imgfavfull.png)
+![DEV REELS 🔴](/src/Images/imgdetfull.png)
+![DEV REELS 🔴](/src/Images/imghomres.png)

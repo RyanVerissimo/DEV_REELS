@@ -1,0 +1,135 @@
+.filme-info {
+    padding: 20px 0;
+}
+
+.filme-info h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.info-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    padding: 0 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.info-details img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.filme-details {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.details p {
+    background-color: rgb(129, 129, 139);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.buttons-details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.info-btn {
+    background: #fff;
+    width: 42%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 12px;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.info-btn:hover {
+    background-color: #696969;
+    color: #fff;
+}
+
+.desejo {
+    cursor: pointer;
+}
+
+/* Responsividade */
+@media (max-width: 1184px) {
+    .info-btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 958px) {
+    .info-btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .filme-info h2{
+        font-size: 28px;
+    }
+    .info-details {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .info-details {
+        padding: 0 100px;
+    }
+    .info-details img {
+        max-height: 400px;
+    }
+
+    .info-btn {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .filme-info h2{
+        font-size: 24px;
+    }
+    .info-details {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .filme-info h2{
+        font-size: 20px;
+    }
+    .info-details {
+        padding: 0 20px;
+    }
+    
+    .info-btn {
+        font-size: 14px;
+    }
+}
