@@ -53,4 +53,5 @@ Página exibida quando o usuário tenta acessar uma URL inexistente dentro da ap
 
 ![DEV REELS 🔴](/src/Images/imgfavfull.png)
 ![DEV REELS 🔴](/src/Images/imgdetfull.png)
+![DEV REELS 🔴](/src/Images/imgnotfoundfull.png)
 ![DEV REELS 🔴](/src/Images/imghomres.png)
